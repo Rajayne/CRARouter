@@ -8,13 +8,19 @@
 
 .navbar-links {
   margin: auto;
+  padding: 1rem;
   text-align: center;
   justify-content: center;
-  color: white
+  color: lightsteelblue;
+  background-color: #16181b;
+}
+
+.navbar-links a.active {
+  color: white;
 }
 
 .link {
   margin: 1rem;
   text-decoration: none;
-  color: white
+  color: lightsteelblue;
 }

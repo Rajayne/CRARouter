@@ -34,3 +34,15 @@ The `<Link>` component replaces the `<a>`
 ```
 <p>Go to <Link to="/">home</Link> page</p>
 ```
+
+### NavLink
+
+Similar to `<Link>` except `<NavLink>` adds an active class to current page link.
+
+- Can style in css by selecting a.active
+
+```
+.navbar-links a.active {
+  color: white;
+}
+```
