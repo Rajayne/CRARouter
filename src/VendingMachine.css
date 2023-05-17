@@ -1,0 +1,27 @@
+.VendingMachine-text {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    margin-left: 2rem;
+    display: block;
+}
+
+.VendingMachine-links {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    right: 0;
+    margin-right: 2rem;
+    padding-top: 15px;
+    display: block;
+}
+
+.VendingMachine-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.VendingMachine-link:hover{
+    color: lightslategray;
+}

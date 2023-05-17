@@ -6,21 +6,6 @@
   color: white
 }
 
-.navbar-links {
-  margin: auto;
-  padding: 1rem;
-  text-align: center;
-  justify-content: center;
-  color: lightsteelblue;
-  background-color: #16181b;
-}
-
-.navbar-links a.active {
+.Backlink {
   color: white;
-}
-
-.link {
-  margin: 1rem;
-  text-decoration: none;
-  color: lightsteelblue;
 }

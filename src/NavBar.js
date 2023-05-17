@@ -1,16 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <nav className="navbar-links">
-      <NavLink className="link" exact to="/candybar">
+    <nav className="NavBar-links">
+      <NavLink className="NavBar-link" exact to="/candybar">
         Candy Bar
       </NavLink>{" "}
-      <NavLink className="link" exact to="/chips">
+      <NavLink className="NavBar-link" exact to="/chips">
         Chips
       </NavLink>
-      <NavLink className="link" exact to="/icedtea">
+      <NavLink className="NavBar-link" exact to="/icedtea">
         Iced Tea
       </NavLink>
     </nav>

@@ -1,0 +1,18 @@
+.NavBar-links {
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  color: lightsteelblue;
+  background-color: #16181b;
+}
+
+.NavBar-links a.active {
+  color: white;
+}
+
+.NavBar-link {
+  margin: 1rem;
+  text-decoration: none;
+  color: lightsteelblue;
+}
