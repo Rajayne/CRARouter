@@ -1,10 +1,26 @@
 # React Router
 
-## Create App
+## Vending Machine Exercise
+
+Use the React Router to build a vending machine!
+
+### Create App
 
 - npx create-react-app cra-router
 - cd cra-router
 - npm install react-router-dom
+
+### Requirements
+
+1. VendingMachine component: lists snack compontent links
+2. At least 3 snack components to be listed in VendingMachine
+3. Clicking on snack link should update the URL and view the snack that is clicked on.
+4. From each snack component, should be able to go back to main VendingMachine component.
+
+### Further Study
+
+1. Add copy of snack links to a site-wide navbar to display at the top of each page.
+2. Highlight current page link in navbar.
 
 ## BrowserRouter & Routes
 
